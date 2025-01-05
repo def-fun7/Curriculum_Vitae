@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.26)  5 JAN 2025 13:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.26)  5 JAN 2025 16:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -842,90 +842,90 @@ File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
 LaTeX Font Warning: Font shape `U/fontawesometwo/b/n' undefined
 (Font)              using `U/fontawesometwo/m/n' instead on input line 114.
 
-LaTeX Font Info:    Trying to load font information for U+fontawesomethree on input line 115.
+LaTeX Font Info:    Trying to load font information for U+fontawesomethree on input line 116.
 (A:\MikTex\tex/latex/fontawesome\ufontawesomethree.fd
 File: ufontawesomethree.fd 2016/05/22 Font definitions for U/fontawesomethree.
 )
 
 LaTeX Font Warning: Font shape `U/fontawesomethree/b/n' undefined
-(Font)              using `U/fontawesomethree/m/n' instead on input line 115.
+(Font)              using `U/fontawesomethree/m/n' instead on input line 116.
 
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 126.
-LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/sc' will be
 (Font)              scaled to size 9.0pt on input line 127.
+LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/sc' will be
+(Font)              scaled to size 9.0pt on input line 128.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 129.
+(Font)              <9> on input line 130.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 129.
+(Font)              <6> on input line 130.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 129.
+(Font)              <5> on input line 130.
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
-(Font)              scaled to size 9.0pt on input line 132.
-<bh.jpg, id=36, 617.30624pt x 385.44pt>
+(Font)              scaled to size 9.0pt on input line 133.
+<bh.jpg, id=38, 617.30624pt x 385.44pt>
 File: bh.jpg Graphic file (type jpg)
 <use bh.jpg>
-Package pdftex.def Info: bh.jpg  used on input line 132.
+Package pdftex.def Info: bh.jpg  used on input line 133.
 (pdftex.def)             Requested size: 45.56125pt x 28.45274pt.
 
-Overfull \hbox (9.41335pt too wide) in paragraph at lines 129--135
+Overfull \hbox (9.41335pt too wide) in paragraph at lines 130--136
 [][]
  []
 
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 139.
-<gct.jpeg, id=37, 475.7775pt x 475.7775pt>
+(Font)              scaled to size 7.0pt on input line 140.
+<gct.jpeg, id=39, 475.7775pt x 475.7775pt>
 File: gct.jpeg Graphic file (type jpg)
 <use gct.jpeg>
-Package pdftex.def Info: gct.jpeg  used on input line 139.
+Package pdftex.def Info: gct.jpeg  used on input line 140.
 (pdftex.def)             Requested size: 14.22188pt x 14.22636pt.
-<pu.png, id=38, 2007.5pt x 2872.7325pt>
+<pu.png, id=40, 2007.5pt x 2872.7325pt>
 File: pu.png Graphic file (type png)
 <use pu.png>
-Package pdftex.def Info: pu.png  used on input line 140.
+Package pdftex.def Info: pu.png  used on input line 141.
 (pdftex.def)             Requested size: 9.92474pt x 14.22636pt.
 
-Overfull \hbox (10.15935pt too wide) in paragraph at lines 138--142
+Overfull \hbox (10.15935pt too wide) in paragraph at lines 139--143
 [][] 
  []
 
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
-(Font)              scaled to size 6.0pt on input line 150.
+(Font)              scaled to size 6.0pt on input line 151.
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 6.0pt on input line 152.
+(Font)              scaled to size 6.0pt on input line 153.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 158.
+(Font)              <7> on input line 159.
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 161.
-<earthengine.jpeg, id=40, 182.6825pt x 182.6825pt>
+(Font)              scaled to size 10.0pt on input line 162.
+<earthengine.jpeg, id=42, 182.6825pt x 182.6825pt>
 File: earthengine.jpeg Graphic file (type jpg)
 <use earthengine.jpeg>
-Package pdftex.def Info: earthengine.jpeg  used on input line 161.
+Package pdftex.def Info: earthengine.jpeg  used on input line 162.
 (pdftex.def)             Requested size: 28.45207pt x 28.45274pt.
-<ss.png, id=41, 112.5003pt x 136.5903pt>
+<ss.png, id=43, 112.5003pt x 136.5903pt>
 File: ss.png Graphic file (type png)
 <use ss.png>
-Package pdftex.def Info: ss.png  used on input line 163.
+Package pdftex.def Info: ss.png  used on input line 164.
 (pdftex.def)             Requested size: 23.43349pt x 28.45274pt.
-<mast.jpeg, id=42, 334.24875pt x 187.70125pt>
+<mast.jpeg, id=44, 334.24875pt x 187.70125pt>
 File: mast.jpeg Graphic file (type jpg)
 <use mast.jpeg>
-Package pdftex.def Info: mast.jpeg  used on input line 164.
+Package pdftex.def Info: mast.jpeg  used on input line 165.
 (pdftex.def)             Requested size: 50.66556pt x 28.45274pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 171--172
+Underfull \hbox (badness 10000) in paragraph at lines 172--173
 []|\T1/Raleway-TLF/m/n/8 Summer In-tern-ship at
  []
 
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 5.0pt on input line 179.
+(Font)              scaled to size 5.0pt on input line 180.
 
-Underfull \hbox (badness 10000) in paragraph at lines 196--197
+Underfull \hbox (badness 10000) in paragraph at lines 197--198
 []|\T1/Raleway-TLF/m/n/8 ``Would you like an
  []
 
 
-Overfull \hbox (22.04874pt too wide) in paragraph at lines 211--218
+Overfull \hbox (22.04874pt too wide) in paragraph at lines 212--219
 [][] 
  []
 
@@ -946,15 +946,15 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Here is how much of TeX's memory you used:
  28270 strings out of 475248
  560177 string characters out of 5774224
- 1966785 words of memory out of 5000000
+ 1967785 words of memory out of 5000000
  49250 multiletter control sequences out of 15000+600000
  801456 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  131i,13n,135p,478b,882s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Lenovo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt0800.pk><A:/MikTex/fonts/type1/public/fontawesome/FontAwesome.pfb><A:/MikTex/fonts/type1/impallari/raleway/Raleway-Bold.pfb><A:/MikTex/fonts/type1/impallari/raleway/Raleway-Italic.pfb><A:/MikTex/fonts/type1/impallari/raleway/Raleway-Regular.pfb><A:/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><A:/MikTex/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on main.pdf (1 page, 725660 bytes).
+Output written on main.pdf (1 page, 726933 bytes).
 PDF statistics:
- 137 PDF objects out of 1000 (max. 8388607)
+ 141 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
  151 words of extra memory for PDF output out of 10000 (max. 10000000)
 
