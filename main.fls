@@ -1,6 +1,6 @@
-PWD a:\OneDrive\Projects\CV
+PWD a:\OneDrive\Projects\CV\Curriculum_Vitae
 INPUT C:\Users\Lenovo\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT a:\OneDrive\Projects\CV\main.tex
+INPUT a:\OneDrive\Projects\CV\Curriculum_Vitae\main.tex
 OUTPUT main.log
 INPUT .\simplehipstercv.cls
 INPUT simplehipstercv.cls
