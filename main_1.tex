@@ -1,0 +1,219 @@
+% This is a CV template based on hipstercv. It has the added functionality of a timeline 
+\documentclass[lighthipster]{hipstercv}
+% available options are: darkhipster, lighthipster, pastel, allblack, grey, verylight, bluebeige
+\usepackage[utf8]{inputenc}
+\usepackage[default]{raleway}
+\usepackage[margin=1cm, a4paper]{geometry}
+\usepackage[T1]{fontenc}
+
+
+%------------------------------------------------------------------ Variablen
+
+\newlength{\rightcolwidth}
+\newlength{\leftcolwidth}
+\setlength{\leftcolwidth}{0.3\textwidth}
+\setlength{\rightcolwidth}{0.65\textwidth}
+
+%------------------------------------------------------------------
+\title{Hipster-CV}
+\author{\LaTeX{} Ninja}
+\date{March 2019}
+
+\pagestyle{empty}
+\begin{document}
+
+
+\thispagestyle{empty}
+%-------------------------------------------------------------
+
+\section*{Start}
+
+
+
+\header{\bg{headerfontbox}{headerfontboxfont}{\LobsterTwo  Mr.} }{\bgupper{headerfontbox}{headerfontboxfont}{\bfseries\Huge Asad Arshad}}{\bg{headerfontbox}{headerfontboxfont}{\large Astrophysicist \& Programmer}}{jack.jpg}{headerblue}{3.5cm}{2cm}
+
+
+
+%------------------------------------------------
+
+% this needs to be here so paracol will start
+\subsection*{}
+\vspace{4em}
+
+\setlength{\columnsep}{1.5cm}
+\columnratio{0.3}[0.65]
+\begin{paracol}{2}
+\hbadness5000
+%\backgroundcolor{c[1]}[rgb]{1,1,0.8} % cream yellow for column-1 %\backgroundcolor{g}[rgb]{0.8,1,1} % \backgroundcolor{l}[rgb]{0,0,0.7} % dark blue for left margin
+
+\paracolbackgroundoptions
+
+% 0.9,0.9,0.9 -- 0.8,0.8,0.8
+
+
+\footnotesize
+{\setasidefontcolour
+\bg{cvgreen}{white}{\LobsterTwo \huge Facts} \\
+\bg{cvgreen}{white}{personal} \\
+
+\begin{tabular}{ll}
+\faMale&Asad Arshad \\
+\faGlobe& nationality: Pakistani  \\
+\faBirthdayCake&2002 \\
+\faMapMarker&Lahore, Pakistan \\
+\end{tabular}
+
+\vfill
+
+
+\bg{cvgreen}{white}{\LobsterTwo \huge Skills}
+\bigskip
+
+
+\begin{minipage}[t]{\leftcolwidth}
+\begin{tabular}{l | ll}
+\textbf{Urdu} & C2 & {\phantom{x}\footnotesize mother tongue} \\
+\textbf{English} & C2 & \pictofraction{\faCircle}{cvgreen}{3}{black!30}{1}{\tiny}
+\end{tabular}
+\end{minipage}
+
+\vfill
+
+\bg{cvgreen}{white}{Interests}\\
+
+\bubblediagram{{\textbf{Fun} \\\textbf{Learning}},  Reading, Coding, Cycling, Astronomy, Writing, sleeping, \textbf{Star}\\ \textbf{Gazing}}
+
+\vfill
+
+\hspace{3cm} \color{labelcolour}{OS:} \hspace{0.5em}\icon{\faWindows}{labelcolour}{\Large} \hspace{0.5em} \icon{\faLinux}{labelcolour}{\Large} 
+
+\vfill
+
+\bg{cvgreen}{white}{IT \& programming} \\
+
+\begin{minipage}[t]{0.3\textwidth}
+\begin{tabular}{r @{\hspace{0.5em}}l}
+     \bg{skilllabelcolour}{iconcolour}{python} & \barrule{0.55}{0.5em}{cvpurple} \\ 
+    %  \bg{skilllabelcolour}{iconcolour}{R} & \barrule{0.2}{0.5em}{cvpurple} \\
+     \bg{skilllabelcolour}{iconcolour}{javascript} & \barrule{0.43}{0.5em}{cvpurple} \\
+     \bg{skilllabelcolour}{iconcolour}{html, css} &  \barrule{0.45}{0.5em}{cvpurple}\\
+     \bg{skilllabelcolour}{iconcolour}{\LaTeX} & \barrule{0.5}{0.5em}{cvpurple} \\
+\end{tabular}
+
+
+%\dashrule{}{}
+\end{minipage}
+
+
+\phantom{turn the page}
+
+\phantom{turn the page}
+}
+%-----------------------------------------------------------
+\switchcolumn
+
+\small
+
+\vspace{2em}
+
+\scalebox{0.8}%
+{%
+% arguments: start/end - end/start - "Scale: how many steps" - colour of the circles
+% if directionality is mixed up, try switching start and end and recompile
+% if items "fall out of the line", you might have to little "steps"/scale (up the number)
+% if you need "too many", use scalebox to resize the whole timeline
+\begin{timelinehorizontal}{2025}{2002}{13}{timelinecolour}
+% arguments: year - colour - date - label - (distance to top) - (angle to side)
+% distance and angle can be used to arrange more items on the timeline manually
+% bc otherwise, on a horizontal timeline, they will overlap almost immediately
+\event{2024}{cvbeige}{03/04}{Assitant To Dr. Khalid in SARNET}{6.9}{-5}
+\event{2017}{cvbeige}{01/04}{Starting Matriculation at Govt. High School}{5.5}{-4}
+\event{2021}{cvbeige}{01/12}{Admitted to PU and starting Bachelors}{4.5}{-2}
+\event{2019}{cvbeige}{03/07}{Starting Intermediate at GCT}{3.5}{-3}
+\event{2024}{cvbeige}{03/06}{Internee at PMD}{2.6}{-5}
+\event{2022}{cvbeige}{15/06.}{Summer Tutoring at a local academy}{1.5}{-4}
+
+
+% keep the items in order (by date) or it will cause problems
+\end{timelinehorizontal}
+}
+
+
+\vspace{4em}
+
+
+\begin{minipage}[t]{0.4\textwidth}
+\section*{Degrees}
+\begin{tabular}{r p{0.6\textwidth} c}
+    \cvdegree{2019}{Matriculation}{HSc}{Govt. High School, Lahore \color{headerblue}}{}{gct.jpeg} \\
+    \cvdegree{2021}{Intermediate}{FSc. Pre Eng}{GCT, Lhr \color{headerblue}}{}{gct.jpeg} \\
+    \cvdegree{2025}{Bachelors}{BS Space Science}{PU \color{headerblue}}{}{pu.png}
+\end{tabular}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.16\textwidth}
+\section*{Hobbies}
+% usage \hobbyicon{<fontawesome icon}{Text}{background color of circle}{size of icon}{space text below icon}
+\hobbyicon{\color{iconcolour}\faDesktop}{Coding}{cvgreen}{\iconsize}{2em} \hfill
+\hobbyicon{\color{iconcolour}\faBook}{Reading}{cvorange}{\iconsize}{2em}
+
+\hobbyicon{\color{iconcolour}\faBicycle}{Cycling}{cvpurple}{\iconsize}{2em} \hfill
+\hobbyicon{\color{iconcolour}\faSearch}{Research}{headerblue}{\iconsize}{2em}
+\end{minipage}
+
+\vspace{2em}
+
+\begin{minipage}[t]{0.3\textwidth}
+\section*{Certificates \& Grants}
+\begin{tabular}{>{\footnotesize\bfseries}r >{\footnotesize}p{0.55\textwidth}}
+    2024 & Astronomy Quiz at University \\
+    2024 & Summer Internee at PMD \\
+\end{tabular}
+
+\end{minipage}\hfill
+\begin{minipage}[t]{0.3\textwidth}
+\section*{Writings}
+\begin{tabular}{>{\footnotesize\bfseries}r >{\footnotesize}p{0.7\textwidth}}
+    Aug. 2021 & ``Would you like an Omelette?''\\
+    Oct. 2024 & ``ONI \& SPI correlation in Pakistan'', in: \emph{Class}. \\
+\end{tabular}
+
+\end{minipage}
+
+\vspace{2em}
+
+% arguments: <line thickness>  <colour>    <size> <other colour> <label inside> <below> <where is the label> <percentage>
+\progressarc{2mm}{headerblue}{0.7cm}{cvbeige}{\large 91\%}{Python}{below}{91} \hfill
+\progressarc{2mm}{headerblue}{0.7cm}{cvbeige}{\large 85\%}{Javascript}{below}{87} \hfill
+\progressarc{2mm}{headerblue}{0.7cm}{cvbeige}{\large 79\%}{Teamwork}{below}{79}\hfill
+\progressarc{2mm}{headerblue}{0.7cm}{cvbeige}{\large 81\%}{\LaTeX}{below}{81} 
+
+\begin{flushright}
+    \small
+    \textit{\LaTeX~compiled on \today}
+\end{flushright}
+
+
+%\progressarc{2mm}{headerblue}{1cm}{cvbeige}{\large\bf \textbf{.cpp}}{Object-Oriented \\ Programming}{below}{40}
+
+% you need some vspace so the sidebar will be filled in for the whole page
+\vspace{3em}
+
+
+\vfill{} % Whitespace before final footer
+%----------------------------------------------------------------------------------------
+%	FINAL FOOTER
+%----------------------------------------------------------------------------------------
+\setlength{\parindent}{0pt}
+\begin{minipage}[t]{\rightcolwidth}
+\begin{center}\fontfamily{\sfdefault}\selectfont \color{black!70}
+{\small Asad Arshad \icon{\faEnvelopeO}{cvgreen}{} \protect\href{mailto:asad.mail!tutamail.com}{asad.mail@tutamail.com} \icon{\faMapMarker}{cvgreen}{} Lahore \icon{\faPhone}{cvgreen}{} +92/349 4906282 
+% \newline\icon{\faAt}{cvgreen}{} \protect\url{jack@sparrow.com}
+}
+\end{center}
+\end{minipage}
+
+
+
+\end{paracol}
+
+\end{document}
