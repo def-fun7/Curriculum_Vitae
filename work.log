@@ -1,14 +1,14 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.26)  3 JUN 2025 20:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.26)  28 JUL 2025 06:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**a:/OneDrive/Projects/CV/Curriculum_Vitae/main_1.tex
-(a:/OneDrive/Projects/CV/Curriculum_Vitae/main_1.tex
+**a:/OneDrive/Projects/CV/Curriculum_Vitae/work.tex
+(a:/OneDrive/Projects/CV/Curriculum_Vitae/work.tex
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
-(hipstercv.cls
-Document Class: hipstercv 2019/06/20 A Hipster CV
+(simplehipstercv.cls
+Document Class: simplehipstercv 2019/06/22 A New Simple CV Template
 (A:\MikTex\tex/latex/base\article.cls
 Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
 (A:\MikTex\tex/latex/base\size10.clo
@@ -43,7 +43,9 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
-)) (hipstercv.sty (A:\MikTex\tex/latex/fontawesome\fontawesome.sty
+)) (simplehipstercv.sty (A:\MikTex\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+) (A:\MikTex\tex/latex/fontawesome\fontawesome.sty
 Package: fontawesome 2016/05/15 v4.6.3.1 font awesome icons
  (A:\MikTex\tex/generic/iftex\ifxetex.sty
 Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
@@ -108,6 +110,7 @@ File: puenc.def 2023-07-08 v7.01b Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
+Package hyperref Info: Option `colorlinks' set `true' on input line 4050.
 Package hyperref Info: Hyper figures OFF on input line 4167.
 Package hyperref Info: Link nesting OFF on input line 4172.
 Package hyperref Info: Hyper index ON on input line 4175.
@@ -134,7 +137,7 @@ Package hyperref Info: Hyper figures OFF on input line 6051.
 Package hyperref Info: Link nesting OFF on input line 6056.
 Package hyperref Info: Hyper index ON on input line 6059.
 Package hyperref Info: backreferencing OFF on input line 6066.
-Package hyperref Info: Link coloring OFF on input line 6071.
+Package hyperref Info: Link coloring ON on input line 6069.
 Package hyperref Info: Link coloring with OCG OFF on input line 6076.
 Package hyperref Info: PDF/A mode OFF on input line 6081.
  (A:\MikTex\tex/latex/base\atbegshi-ltx.sty
@@ -191,51 +194,12 @@ Package: paracol 2018/12/31 v1.35
 \pcol@everyvbox=\toks18
 ) (A:\MikTex\tex/latex/base\ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
-) (A:\MikTex\tex/latex/beuron\beuron.sty (A:\MikTex\tex/latex/l3kernel\expl3.sty
-Package: expl3 2023-08-29 L3 programming layer (loader) 
- (A:\MikTex\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count281
-\l__pdf_internal_box=\box57
-))
-Package: beuron 2018/01/17 v1.3 Beuronese art script package
- (A:\MikTex\tex/latex/l3packages/xparse\xparse.sty
-Package: xparse 2023-08-29 L3 Experimental document command parser
-)
-\l_beuron_mittepunkt_box=\box58
-\l_beuron_mittepunktabstand_skip=\skip53
-) (A:\MikTex\tex/latex/lobster2\LobsterTwo.sty
-Package: LobsterTwo 2022/09/19 (Bob Tennent) Supports Lobster Two fonts for all LaTeX engines. 
- (A:\MikTex\tex/latex/base\textcomp.sty
-Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
-) (A:\MikTex\tex/latex/xkeyval\xkeyval.sty
-Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
- (A:\MikTex\tex/generic/xkeyval\xkeyval.tex (A:\MikTex\tex/generic/xkeyval\xkvutils.tex
-\XKV@toks=\toks19
-\XKV@tempa@toks=\toks20
-)
-\XKV@depth=\count282
-File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-)) (A:\MikTex\tex/latex/base\fontenc.sty
-Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-) (A:\MikTex\tex/latex/fontaxes\fontaxes.sty
-Package: fontaxes 2020/07/21 v1.0e Font selection axes
-LaTeX Info: Redefining \upshape on input line 29.
-LaTeX Info: Redefining \itshape on input line 31.
-LaTeX Info: Redefining \slshape on input line 33.
-LaTeX Info: Redefining \swshape on input line 35.
-LaTeX Info: Redefining \scshape on input line 37.
-LaTeX Info: Redefining \sscshape on input line 39.
-LaTeX Info: Redefining \ulcshape on input line 41.
-LaTeX Info: Redefining \textsw on input line 47.
-LaTeX Info: Redefining \textssc on input line 48.
-LaTeX Info: Redefining \textulc on input line 49.
-)) (A:\MikTex\tex/latex/pgf/frontendlayer\tikz.sty (A:\MikTex\tex/latex/pgf/basiclayer\pgf.sty (A:\MikTex\tex/latex/pgf/utilities\pgfrcs.sty (A:\MikTex\tex/generic/pgf/utilities\pgfutil-common.tex
-\pgfutil@everybye=\toks21
+) (A:\MikTex\tex/latex/pgf/frontendlayer\tikz.sty (A:\MikTex\tex/latex/pgf/basiclayer\pgf.sty (A:\MikTex\tex/latex/pgf/utilities\pgfrcs.sty (A:\MikTex\tex/generic/pgf/utilities\pgfutil-common.tex
+\pgfutil@everybye=\toks19
 \pgfutil@tempdima=\dimen150
 \pgfutil@tempdimb=\dimen151
 ) (A:\MikTex\tex/generic/pgf/utilities\pgfutil-latex.def
-\pgfutil@abb=\box59
+\pgfutil@abb=\box57
 ) (A:\MikTex\tex/generic/pgf/utilities\pgfrcs.code.tex (A:\MikTex\tex/generic/pgf\pgf.revision.tex)
 Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
 ))
@@ -256,10 +220,10 @@ Package graphics Info: Driver file: pdftex.def on input line 107.
 ) (A:\MikTex\tex/latex/pgf/systemlayer\pgfsys.sty (A:\MikTex\tex/generic/pgf/systemlayer\pgfsys.code.tex
 Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
  (A:\MikTex\tex/generic/pgf/utilities\pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks22
-\pgfkeys@temptoks=\toks23
+\pgfkeys@pathtoks=\toks20
+\pgfkeys@temptoks=\toks21
  (A:\MikTex\tex/generic/pgf/utilities\pgfkeyslibraryfiltered.code.tex
-\pgfkeys@tmptoks=\toks24
+\pgfkeys@tmptoks=\toks22
 ))
 \pgf@x=\dimen154
 \pgf@y=\dimen155
@@ -273,14 +237,14 @@ Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 \pgf@yd=\dimen163
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count283
-\c@pgf@countb=\count284
-\c@pgf@countc=\count285
-\c@pgf@countd=\count286
-\t@pgf@toka=\toks25
-\t@pgf@tokb=\toks26
-\t@pgf@tokc=\toks27
-\pgf@sys@id@count=\count287
+\c@pgf@counta=\count281
+\c@pgf@countb=\count282
+\c@pgf@countc=\count283
+\c@pgf@countd=\count284
+\t@pgf@toka=\toks23
+\t@pgf@tokb=\toks24
+\t@pgf@tokc=\toks25
+\pgf@sys@id@count=\count285
  (A:\MikTex\tex/generic/pgf/systemlayer\pgf.cfg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
@@ -291,21 +255,21 @@ File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
 File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
 ))) (A:\MikTex\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count288
-\pgfsyssoftpath@bigbuffer@items=\count289
+\pgfsyssoftpath@smallbuffer@items=\count286
+\pgfsyssoftpath@bigbuffer@items=\count287
 ) (A:\MikTex\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )) (A:\MikTex\tex/generic/pgf/basiclayer\pgfcore.code.tex
 Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
  (A:\MikTex\tex/generic/pgf/math\pgfmath.code.tex (A:\MikTex\tex/generic/pgf/math\pgfmathutil.code.tex) (A:\MikTex\tex/generic/pgf/math\pgfmathparser.code.tex
 \pgfmath@dimen=\dimen164
-\pgfmath@count=\count290
-\pgfmath@box=\box60
-\pgfmath@toks=\toks28
-\pgfmath@stack@operand=\toks29
-\pgfmath@stack@operation=\toks30
+\pgfmath@count=\count288
+\pgfmath@box=\box58
+\pgfmath@toks=\toks26
+\pgfmath@stack@operand=\toks27
+\pgfmath@stack@operation=\toks28
 ) (A:\MikTex\tex/generic/pgf/math\pgfmathfunctions.code.tex) (A:\MikTex\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (A:\MikTex\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (A:\MikTex\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (A:\MikTex\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (A:\MikTex\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (A:\MikTex\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (A:\MikTex\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (A:\MikTex\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex) (A:\MikTex\tex/generic/pgf/math\pgfmathcalc.code.tex) (A:\MikTex\tex/generic/pgf/math\pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count291
+\c@pgfmathroundto@lastzeros=\count289
 )) (A:\MikTex\tex/generic/pgf/math\pgfint.code.tex) (A:\MikTex\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@picminx=\dimen165
@@ -332,10 +296,10 @@ File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@shorten@start@additional=\dimen182
 ) (A:\MikTex\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfpic=\box61
-\pgf@hbox=\box62
-\pgf@layerbox@main=\box63
-\pgf@picture@serial@count=\count292
+\pgfpic=\box59
+\pgf@hbox=\box60
+\pgf@layerbox@main=\box61
+\pgf@picture@serial@count=\count290
 ) (A:\MikTex\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgflinewidth=\dimen183
@@ -356,13 +320,13 @@ File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (A:\MikTex\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@max=\dimen188
-\pgf@sys@shading@range@num=\count293
-\pgf@shadingcount=\count294
+\pgf@sys@shading@range@num=\count291
+\pgf@shadingcount=\count292
 ) (A:\MikTex\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (A:\MikTex\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfexternal@startupbox=\box64
+\pgfexternal@startupbox=\box62
 ) (A:\MikTex\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (A:\MikTex\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex
@@ -373,7 +337,7 @@ File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))) (A:\MikTex\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfnodeparttextbox=\box65
+\pgfnodeparttextbox=\box63
 ) (A:\MikTex\tex/generic/pgf/modules\pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (A:\MikTex\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
@@ -386,13 +350,13 @@ Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
 \pgffor@iter=\dimen191
 \pgffor@skip=\dimen192
-\pgffor@stack=\toks31
-\pgffor@toks=\toks32
+\pgffor@stack=\toks29
+\pgffor@toks=\toks30
 )) (A:\MikTex\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
 Package: tikz 2023-01-15 v3.1.10 (3.1.10)
  (A:\MikTex\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count295
+\pgf@plot@mark@count=\count293
 \pgfplotmarksize=\dimen193
 )
 \tikz@lastx=\dimen194
@@ -403,21 +367,21 @@ File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \tikz@lastmovetoy=\dimen199
 \tikzleveldistance=\dimen256
 \tikzsiblingdistance=\dimen257
-\tikz@figbox=\box66
-\tikz@figbox@bg=\box67
-\tikz@tempbox=\box68
-\tikz@tempbox@bg=\box69
-\tikztreelevel=\count296
-\tikznumberofchildren=\count297
-\tikznumberofcurrentchild=\count298
-\tikz@fig@count=\count299
+\tikz@figbox=\box64
+\tikz@figbox@bg=\box65
+\tikz@tempbox=\box66
+\tikz@tempbox@bg=\box67
+\tikztreelevel=\count294
+\tikznumberofchildren=\count295
+\tikznumberofcurrentchild=\count296
+\tikz@fig@count=\count297
  (A:\MikTex\tex/generic/pgf/modules\pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count300
-\pgfmatrixcurrentcolumn=\count301
-\pgf@matrix@numberofcolumns=\count302
+\pgfmatrixcurrentrow=\count298
+\pgfmatrixcurrentcolumn=\count299
+\pgf@matrix@numberofcolumns=\count300
 )
-\tikz@expandcount=\count303
+\tikz@expandcount=\count301
  (A:\MikTex\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))) (A:\MikTex\tex/latex/tikz-3dplot\tikz-3dplot.sty (A:\MikTex\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarycalc.code.tex
@@ -431,15 +395,23 @@ File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \arrowsize=\dimen258
 ))) (A:\MikTex\tex/latex/smartdiagram\smartdiagram.sty
 Package: smartdiagram 2016/12/23 v0.3b Automatic creation of smart diagrams from lists of items.
- (A:\MikTex\tex/latex/xstring\xstring.sty (A:\MikTex\tex/generic/xstring\xstring.tex
-\xs_counta=\count304
-\xs_countb=\count305
+ (A:\MikTex\tex/latex/l3packages/xparse\xparse.sty (A:\MikTex\tex/latex/l3kernel\expl3.sty
+Package: expl3 2023-08-29 L3 programming layer (loader) 
+ (A:\MikTex\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count302
+\l__pdf_internal_box=\box68
+))
+Package: xparse 2023-08-29 L3 Experimental document command parser
+) (A:\MikTex\tex/latex/xstring\xstring.sty (A:\MikTex\tex/generic/xstring\xstring.tex
+\xs_counta=\count303
+\xs_countb=\count304
 )
 Package: xstring 2023/08/22 v1.86 String manipulations (CT)
 ) (A:\MikTex\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarybackgrounds.code.tex
 File: tikzlibrarybackgrounds.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@layerbox@background=\box70
-\pgf@layerboxsaved@background=\box71
+\pgf@layerbox@background=\box69
+\pgf@layerboxsaved@background=\box70
 ) (A:\MikTex\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryfadings.code.tex
 File: tikzlibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
  (A:\MikTex\tex/generic/pgf/libraries\pgflibraryfadings.code.tex
@@ -455,39 +427,39 @@ File: tikzlibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
  (A:\MikTex\tex/generic/pgf/libraries/shapes\pgflibraryshapes.symbols.code.tex
 File: pgflibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))
-\pgf@layerbox@smart diagram arrow back=\box72
-\pgf@layerboxsaved@smart diagram arrow back=\box73
+\pgf@layerbox@smart diagram arrow back=\box71
+\pgf@layerboxsaved@smart diagram arrow back=\box72
  (A:\MikTex\tex/latex/smartdiagram\smartdiagramlibrarycore.definitions.code.tex) (A:\MikTex\tex/latex/smartdiagram\smartdiagramlibrarycore.styles.code.tex) (A:\MikTex\tex/latex/smartdiagram\smartdiagramlibrarycore.commands.code.tex)) (A:\MikTex\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count306
-\float@exts=\toks33
-\float@box=\box74
-\@float@everytoks=\toks34
-\@floatcapt=\box75
+\c@float@type=\count305
+\float@exts=\toks31
+\float@box=\box73
+\@float@everytoks=\toks32
+\@floatcapt=\box74
 ) (A:\MikTex\tex/latex/tools\array.sty
 Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
 \col@sep=\dimen259
-\ar@mcellbox=\box76
+\ar@mcellbox=\box75
 \extrarowheight=\dimen260
-\NC@list=\toks35
-\extratabsurround=\skip54
-\backup@length=\skip55
-\ar@cellbox=\box77
+\NC@list=\toks33
+\extratabsurround=\skip53
+\backup@length=\skip54
+\ar@cellbox=\box76
 ) (A:\MikTex\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.text.code.tex (A:\MikTex\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.code.tex (A:\MikTex\tex/generic/pgf/modules\pgfmoduledecorations.code.tex
 \pgfdecoratedcompleteddistance=\dimen261
 \pgfdecoratedremainingdistance=\dimen262
 \pgfdecoratedinputsegmentcompleteddistance=\dimen263
 \pgfdecoratedinputsegmentremainingdistance=\dimen264
 \pgf@decorate@distancetomove=\dimen265
-\pgf@decorate@repeatstate=\count307
+\pgf@decorate@repeatstate=\count306
 \pgfdecorationsegmentamplitude=\dimen266
 \pgfdecorationsegmentlength=\dimen267
 )
-\tikz@lib@dec@box=\box78
+\tikz@lib@dec@box=\box77
 ) (A:\MikTex\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.text.code.tex
-\pgf@lib@dec@text@box=\box79
+\pgf@lib@dec@text@box=\box78
 )
-\tikz@lib@dec@te@box=\box80
+\tikz@lib@dec@te@box=\box79
 ) (A:\MikTex\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.misc.code.tex
 File: tikzlibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
  (A:\MikTex\tex/generic/pgf/libraries/shapes\pgflibraryshapes.misc.code.tex
@@ -508,17 +480,17 @@ File: pgflibraryshadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: tikzlibrarycalendar.code.tex 2023-01-15 v3.1.10 (3.1.10)
  (A:\MikTex\tex/latex/pgf/utilities\pgfcalendar.sty (A:\MikTex\tex/generic/pgf/utilities\pgfcalendar.code.tex
 File: pgfcalendar.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfcalendarcurrentjulian=\count308
-\pgf@cal@easter@Y=\count309
-\pgf@cal@easter@G=\count310
-\pgf@cal@easter@C=\count311
-\pgf@cal@easter@X=\count312
-\pgf@cal@easter@Z=\count313
-\pgf@cal@easter@D=\count314
-\pgf@cal@easter@E=\count315
-\pgf@cal@easter@N=\count316
-\pgf@cal@easter@M=\count317
-\pgf@cal@easter@julianday=\count318
+\pgfcalendarcurrentjulian=\count307
+\pgf@cal@easter@Y=\count308
+\pgf@cal@easter@G=\count309
+\pgf@cal@easter@C=\count310
+\pgf@cal@easter@X=\count311
+\pgf@cal@easter@Z=\count312
+\pgf@cal@easter@D=\count313
+\pgf@cal@easter@E=\count314
+\pgf@cal@easter@N=\count315
+\pgf@cal@easter@M=\count316
+\pgf@cal@easter@julianday=\count317
 ))) (A:\MikTex\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryer.code.tex
 File: tikzlibraryer.code.tex 2023-01-15 v3.1.10 (3.1.10)
  (A:\MikTex\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryshapes.geometric.code.tex
@@ -535,44 +507,52 @@ File: tikzlibraryshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 File: tikzlibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
  (A:\MikTex\tex/generic/pgf/libraries/shapes\pgflibraryshapes.multipart.code.tex
 File: pgflibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfnodepartlowerbox=\box81
-\pgfnodeparttwobox=\box82
-\pgfnodepartthreebox=\box83
-\pgfnodepartfourbox=\box84
-\pgfnodeparttwentybox=\box85
-\pgfnodepartnineteenbox=\box86
-\pgfnodeparteighteenbox=\box87
-\pgfnodepartseventeenbox=\box88
-\pgfnodepartsixteenbox=\box89
-\pgfnodepartfifteenbox=\box90
-\pgfnodepartfourteenbox=\box91
-\pgfnodepartthirteenbox=\box92
-\pgfnodeparttwelvebox=\box93
-\pgfnodepartelevenbox=\box94
-\pgfnodeparttenbox=\box95
-\pgfnodepartninebox=\box96
-\pgfnodeparteightbox=\box97
-\pgfnodepartsevenbox=\box98
-\pgfnodepartsixbox=\box99
-\pgfnodepartfivebox=\box100
+\pgfnodepartlowerbox=\box80
+\pgfnodeparttwobox=\box81
+\pgfnodepartthreebox=\box82
+\pgfnodepartfourbox=\box83
+\pgfnodeparttwentybox=\box84
+\pgfnodepartnineteenbox=\box85
+\pgfnodeparteighteenbox=\box86
+\pgfnodepartseventeenbox=\box87
+\pgfnodepartsixteenbox=\box88
+\pgfnodepartfifteenbox=\box89
+\pgfnodepartfourteenbox=\box90
+\pgfnodepartthirteenbox=\box91
+\pgfnodeparttwelvebox=\box92
+\pgfnodepartelevenbox=\box93
+\pgfnodeparttenbox=\box94
+\pgfnodepartninebox=\box95
+\pgfnodeparteightbox=\box96
+\pgfnodepartsevenbox=\box97
+\pgfnodepartsixbox=\box98
+\pgfnodepartfivebox=\box99
 ))) (A:\MikTex\tex/latex/titlesec\titlesec.sty
 Package: titlesec 2023/10/27 v2.16 Sectioning titles
-\ttl@box=\box101
-\beforetitleunit=\skip56
-\aftertitleunit=\skip57
+\ttl@box=\box100
+\beforetitleunit=\skip55
+\aftertitleunit=\skip56
 \ttl@plus=\dimen272
 \ttl@minus=\dimen273
-\ttl@toksa=\toks36
+\ttl@toksa=\toks34
 \titlewidth=\dimen274
 \titlewidthlast=\dimen275
 \titlewidthfirst=\dimen276
 )) (A:\MikTex\tex/latex/base\inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
-\inpenc@prehook=\toks37
-\inpenc@posthook=\toks38
+\inpenc@prehook=\toks35
+\inpenc@posthook=\toks36
 ) (A:\MikTex\tex/latex/raleway\raleway.sty
 Package: raleway 2016/12/03 v1.4 Matt McInerneyâ€™s Raleway family
- (A:\MikTex\tex/latex/base\fontenc.sty
+ (A:\MikTex\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+ (A:\MikTex\tex/generic/xkeyval\xkeyval.tex (A:\MikTex\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks37
+\XKV@tempa@toks=\toks38
+)
+\XKV@depth=\count318
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (A:\MikTex\tex/latex/base\fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
  (A:\MikTex\tex/latex/ly1\ly1enc.def
 File: ly1enc.def 2022/06/11 v0.8 TeX 'n ANSI encoding (DPC/KB)
@@ -705,19 +685,9 @@ File: ly1enc.dfu 2022/06/07 v1.3c UTF-8 support
    defining Unicode char U+FB04 (decimal 64260)
    defining Unicode char U+FB05 (decimal 64261)
    defining Unicode char U+FB06 (decimal 64262)
-))
-LaTeX Font Info:    Trying to load font information for T1+Lbstr-LF on input line 112.
- (A:\MikTex\tex/latex/lobster2\t1lbstr-lf.fd
-File: T1Lbstr-LF.fd 2020/07/28 (autoinst) Font definitions for T1/Lbstr-LF.
-)
-LaTeX Font Info:    Font shape `T1/Lbstr-LF/m/n' aliased to
-(Font)              `T1/Lbstr-LF/regular/n' on input line 112.
-LaTeX Font Info:    Font shape `T1/Lbstr-LF/regular/n' will be
-(Font)              scaled to size 10.0pt on input line 112.
-)) (A:\MikTex\tex/latex/geometry\geometry.sty
+)))) (A:\MikTex\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
-
-(A:\MikTex\tex/generic/iftex\ifvtex.sty
+ (A:\MikTex\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
 \Gm@cnth=\count319
@@ -732,49 +702,48 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layouthoffset=\dimen283
 \Gm@layoutvoffset=\dimen284
 \Gm@dimlist=\toks39
- (A:\MikTex\tex/latex/geometry\geometry.cfg)) (A:\MikTex\tex/latex/base\fontenc.sty
-Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-LaTeX Font Info:    Trying to load font information for T1+Raleway-TLF on input line 112.
+ (A:\MikTex\tex/latex/geometry\geometry.cfg))
+\rightcolwidth=\skip57
+\leftcolwidth=\skip58
+LaTeX Font Info:    Trying to load font information for T1+Raleway-TLF on input line 27.
  (A:\MikTex\tex/latex/raleway\t1raleway-tlf.fd
 File: T1Raleway-TLF.fd 2014/07/28 (autoinst) Font definitions for T1/Raleway-TLF.
 )
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 112.
-)
-\rightcolwidth=\skip58
-\leftcolwidth=\skip59
- (main_1.aux)
-\openout1 = `main_1.aux'.
+(Font)              scaled to size 10.0pt on input line 27.
+ (work.aux)
+\openout1 = `work.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 23.
-LaTeX Font Info:    Trying to load font information for LY1+ptm on input line 23.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 27.
+LaTeX Font Info:    Trying to load font information for LY1+ptm on input line 27.
  (A:\MikTex\tex/latex/ly1\ly1ptm.fd
 File: ly1ptm.fd 2001/02/01 font definitions for LY1/ptm using Berry names.
 )
-LaTeX Font Info:    ... okay on input line 23.
- (A:\MikTex\tex/context/base/mkii\supp-pdf.mkii
+LaTeX Font Info:    ... okay on input line 27.
+
+(A:\MikTex\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count322
 \scratchdimen=\dimen285
-\scratchbox=\box102
+\scratchbox=\box101
 \nofMPsegments=\count323
 \nofMParguments=\count324
 \everyMPshowfont=\toks40
@@ -785,23 +754,15 @@ LaTeX Font Info:    ... okay on input line 23.
 \everyMPtoPDFconversion=\toks41
 ) (A:\MikTex\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
- (A:\MikTex\tex/latex/grfext\grfext.sty
-Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
-)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 504.
  (A:\MikTex\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 23.
- (main_1.out) (main_1.out)
+Package hyperref Info: Link coloring ON on input line 27.
+ (work.out) (work.out)
 \@outlinefile=\write4
-\openout4 = `main_1.out'.
+\openout4 = `work.out'.
 
-\c@mv@tabular=\count328
-\c@mv@boldtabular=\count329
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -838,162 +799,130 @@ Package hyperref Info: Link coloring OFF on input line 23.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/sc' will be
-(Font)              scaled to size 10.0pt on input line 29.
+(Font)              scaled to size 10.0pt on input line 33.
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/sc' will be
-(Font)              scaled to size 14.4pt on input line 29.
+(Font)              scaled to size 14.4pt on input line 33.
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 20.74pt on input line 33.
+(Font)              scaled to size 24.88pt on input line 35.
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
-(Font)              scaled to size 20.74pt on input line 33.
-LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
-(Font)              scaled to size 24.88pt on input line 33.
-LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 33.
-LaTeX Font Info:    Font shape `T1/Lbstr-LF/b/n' aliased to
-(Font)              `T1/Lbstr-LF/bold/n' on input line 33.
-LaTeX Font Info:    Font shape `T1/Lbstr-LF/bold/n' will be
-(Font)              scaled to size 10.0pt on input line 33.
-LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 33.
-<jack.jpg, id=33, 475.7775pt x 486.81876pt>
-File: jack.jpg Graphic file (type jpg)
-<use jack.jpg>
-Package pdftex.def Info: jack.jpg  used on input line 33.
-(pdftex.def)             Requested size: 119.56842pt x 122.34692pt.
+(Font)              scaled to size 24.88pt on input line 35.
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 40.
-LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 54.
+(Font)              scaled to size 12.0pt on input line 42.
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
+(Font)              scaled to size 12.0pt on input line 42.
+LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
 (Font)              scaled to size 8.0pt on input line 56.
-LaTeX Font Info:    Font shape `T1/Lbstr-LF/b/n' aliased to
-(Font)              `T1/Lbstr-LF/bold/n' on input line 56.
-LaTeX Font Info:    Font shape `T1/Lbstr-LF/bold/n' will be
-(Font)              scaled to size 8.0pt on input line 56.
-LaTeX Font Info:    Font shape `T1/Lbstr-LF/b/n' aliased to
-(Font)              `T1/Lbstr-LF/bold/n' on input line 56.
-LaTeX Font Info:    Font shape `T1/Lbstr-LF/bold/n' will be
-(Font)              scaled to size 20.74pt on input line 56.
-
-Underfull \hbox (badness 10000) in paragraph at lines 56--58
-
- []
-
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 59.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 59.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 59.
-LaTeX Font Info:    Trying to load font information for U+fontawesometwo on input line 60.
-(A:\MikTex\tex/latex/fontawesome\ufontawesometwo.fd
-File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
-)
-LaTeX Font Info:    Trying to load font information for U+fontawesomeone on input line 62.
- (A:\MikTex\tex/latex/fontawesome\ufontawesomeone.fd
+LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
+(Font)              scaled to size 8.0pt on input line 113.
+LaTeX Font Info:    Trying to load font information for U+fontawesomeone on input line 113.
+(A:\MikTex\tex/latex/fontawesome\ufontawesomeone.fd
 File: ufontawesomeone.fd 2016/05/22 Font definitions for U/fontawesomeone.
 )
-LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 5.0pt on input line 77.
 
-Overfull \hbox (12.80386pt too wide) in paragraph at lines 73--86
-[][] 
- []
+LaTeX Font Warning: Font shape `U/fontawesomeone/b/n' undefined
+(Font)              using `U/fontawesomeone/m/n' instead on input line 113.
 
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 113.
+(A:\MikTex\tex/latex/base\t1cmtt.fd
+File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+LaTeX Font Info:    Trying to load font information for U+fontawesometwo on input line 114.
+ (A:\MikTex\tex/latex/fontawesome\ufontawesometwo.fd
+File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
+)
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--90
+LaTeX Font Warning: Font shape `U/fontawesometwo/b/n' undefined
+(Font)              using `U/fontawesometwo/m/n' instead on input line 114.
 
- []
-
-LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 95.
-LaTeX Font Info:    Trying to load font information for U+fontawesomethree on input line 95.
+LaTeX Font Info:    Trying to load font information for U+fontawesomethree on input line 116.
 (A:\MikTex\tex/latex/fontawesome\ufontawesomethree.fd
 File: ufontawesomethree.fd 2016/05/22 Font definitions for U/fontawesomethree.
 )
-Overfull \hbox (3.61974pt too wide) in paragraph at lines 95--96
-[]  [] \T1/Raleway-TLF/m/n/8 OS:  [][] \U/fontawesomethree/m/n/14.4 q[][]   [][] \U/fontawesometwo/m/n/14.4 ±[][] 
- []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
-
- []
-
-
-Overfull \hbox (12.80386pt too wide) in paragraph at lines 101--113
-[][] 
- []
+LaTeX Font Warning: Font shape `U/fontawesomethree/b/n' undefined
+(Font)              using `U/fontawesomethree/m/n' instead on input line 116.
 
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 122.
-LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
-(Font)              scaled to size 9.0pt on input line 146.
+(Font)              scaled to size 9.0pt on input line 130.
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/sc' will be
-(Font)              scaled to size 9.0pt on input line 153.
+(Font)              scaled to size 9.0pt on input line 133.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 154.
-LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 155.
-<pu.png, id=34, 2007.5pt x 2872.7325pt>
-File: pu.png Graphic file (type png)
-<use pu.png>
-Package pdftex.def Info: pu.png  used on input line 155.
-(pdftex.def)             Requested size: 9.92474pt x 14.22636pt.
-<gct.jpeg, id=36, 475.7775pt x 475.7775pt>
-File: gct.jpeg Graphic file (type jpg)
-<use gct.jpeg>
-Package pdftex.def Info: gct.jpeg  used on input line 156.
-(pdftex.def)             Requested size: 14.22188pt x 14.22636pt.
-File: gct.jpeg Graphic file (type jpg)
-<use gct.jpeg>
-Package pdftex.def Info: gct.jpeg  used on input line 157.
-(pdftex.def)             Requested size: 14.22188pt x 14.22636pt.
+(Font)              <9> on input line 134.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 134.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 134.
+LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
+(Font)              scaled to size 9.0pt on input line 135.
 
-Underfull \hbox (badness 10000) in paragraph at lines 177--178
-[]|\T1/Raleway-TLF/m/n/8 Summer In-ternee at
- []
-
-LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/it' will be
-(Font)              scaled to size 8.0pt on input line 185.
-
-Overfull \hbox (13.93677pt too wide) in paragraph at lines 183--187
+Overfull \hbox (1.9711pt too wide) in paragraph at lines 134--142
 [][] 
  []
 
-LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 6.0pt on input line 196.
-LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/it' will be
-(Font)              scaled to size 9.0pt on input line 200.
-LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/it' will be
-(Font)              scaled to size 6.0pt on input line 200.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 148.
+LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
+(Font)              scaled to size 10.0pt on input line 149.
+<ss.png, id=38, 112.5003pt x 136.5903pt>
+File: ss.png Graphic file (type png)
+<use ss.png>
+Package pdftex.def Info: ss.png  used on input line 149.
+(pdftex.def)             Requested size: 23.43349pt x 28.45274pt.
+<mast.jpeg, id=40, 334.24875pt x 187.70125pt>
+File: mast.jpeg Graphic file (type jpg)
+<use mast.jpeg>
+Package pdftex.def Info: mast.jpeg  used on input line 150.
+(pdftex.def)             Requested size: 50.66556pt x 28.45274pt.
+<py.jpg, id=41, 287.0725pt x 365.365pt>
+File: py.jpg Graphic file (type jpg)
+<use py.jpg>
+Package pdftex.def Info: py.jpg  used on input line 151.
+(pdftex.def)             Requested size: 22.35301pt x 28.45274pt.
+<p5.jpg, id=42, 177.66376pt x 180.675pt>
+File: p5.jpg Graphic file (type jpg)
+<use p5.jpg>
+Package pdftex.def Info: p5.jpg  used on input line 152.
+(pdftex.def)             Requested size: 27.97676pt x 28.45274pt.
+<sw.jpg, id=43, 196.735pt x 195.73125pt>
+File: sw.jpg Graphic file (type jpg)
+<use sw.jpg>
+Package pdftex.def Info: sw.jpg  used on input line 153.
+(pdftex.def)             Requested size: 28.59637pt x 28.45274pt.
+File: py.jpg Graphic file (type jpg)
+<use py.jpg>
+Package pdftex.def Info: py.jpg  used on input line 155.
+(pdftex.def)             Requested size: 22.35301pt x 28.45274pt.
 
-Overfull \hbox (2.84348pt too wide) in paragraph at lines 215--222
+Overfull \hbox (22.04874pt too wide) in paragraph at lines 169--176
 [][] 
  []
 
 [1
 
-{C:/Users/Lenovo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{A:/MikTex/fonts/enc/dvips/raleway/a_yqxcf3.enc}{A:/MikTex/fonts/enc/dvips/raleway/a_bzmckq.enc}{A:/MikTex/fonts/enc/dvips/lobster2/lbstr_2rydtx.enc}{A:/MikTex/fonts/enc/dvips/fontawesome/fontawesometwo.enc}{A:/MikTex/fonts/enc/dvips/fontawesome/fontawesomeone.enc}{A:/MikTex/fonts/enc/dvips/fontawesome/fontawesomethree.enc} <./jack.jpg> <./pu.png> <./gct.jpeg>] (main_1.aux)
+{C:/Users/Lenovo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{A:/MikTex/fonts/enc/dvips/raleway/a_yqxcf3.enc}{A:/MikTex/fonts/enc/dvips/raleway/a_bzmckq.enc}{A:/MikTex/fonts/enc/dvips/fontawesome/fontawesomeone.enc}{A:/MikTex/fonts/enc/dvips/fontawesome/fontawesometwo.enc}{A:/MikTex/fonts/enc/dvips/fontawesome/fontawesomethree.enc} <./ss.png> <./mast.jpeg> <./py.jpg> <./p5.jpg> <./sw.jpg>] (work.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
-Package rerunfilecheck Info: File `main_1.out' has not changed.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package rerunfilecheck Info: File `work.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 28849 strings out of 475248
- 572110 string characters out of 5774224
- 1975785 words of memory out of 5000000
- 49806 multiletter control sequences out of 15000+600000
- 873376 words of font info for 95 fonts, out of 8000000 for 9000
+ 28189 strings out of 475248
+ 558197 string characters out of 5774224
+ 1954785 words of memory out of 5000000
+ 49180 multiletter control sequences out of 15000+600000
+ 731891 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 131i,13n,135p,480b,1045s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<A:/MikTex/fonts/type1/public/fontawesome/FontAwesome.pfb><A:/MikTex/fonts/type1/impallari/lobster2/Lbstr-Bold.pfb><A:/MikTex/fonts/type1/impallari/raleway/Raleway-Bold.pfb><A:/MikTex/fonts/type1/impallari/raleway/Raleway-Italic.pfb><A:/MikTex/fonts/type1/impallari/raleway/Raleway-Regular.pfb><A:/MikTex/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on main_1.pdf (1 page, 652364 bytes).
+ 131i,11n,135p,478b,875s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\Lenovo\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt0800.pk><A:/MikTex/fonts/type1/public/fontawesome/FontAwesome.pfb><A:/MikTex/fonts/type1/impallari/raleway/Raleway-Bold.pfb><A:/MikTex/fonts/type1/impallari/raleway/Raleway-Regular.pfb><A:/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on work.pdf (1 page, 153056 bytes).
 PDF statistics:
- 92 PDF objects out of 1000 (max. 8388607)
+ 128 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
- 136 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 146 words of extra memory for PDF output out of 10000 (max. 10000000)
 

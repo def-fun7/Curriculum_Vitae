@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1736240176 "a:/OneDrive/Projects/CV/Curriculum_Vitae/cv.tex" "cv.pdf" "cv" 1736240182 0
+["pdflatex"] 1753666195 "a:/OneDrive/Projects/CV/Curriculum_Vitae/cv.tex" "cv.pdf" "cv" 1753666198 0
   "A:/MikTex/fonts/type1/impallari/lobster2/Lbstr-Bold.pfb" 1595987441 79788 e427ffb1e725c765830c83a07846fa52 ""
   "A:/MikTex/fonts/type1/impallari/raleway/Raleway-Bold.pfb" 1480763520 95654 03b9eec4f5535aa10523455c26eb8f55 ""
   "A:/MikTex/fonts/type1/impallari/raleway/Raleway-Italic.pfb" 1480763520 79232 97fc87d0278cb76c2f5c6e4b42f6130e ""
@@ -31,13 +31,14 @@
   "A:/MikTex/tex/latex/pdfpages/pppdftex.def" 1716987240 6591 503a4036429dfe481188b21e538b8d3f ""
   "A:/MikTex/tex/latex/tools/calc.sty" 1686255640 10214 75bcd28386d4b4b9f28b2aff3cea7b24 ""
   "A:/MikTex/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
-  "C:/Users/Lenovo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1736235937 237228 1741a17de6fa432067a358929831ca79 ""
+  "C:/Users/Lenovo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1747588782 242131 acbf7bfd8204a663beaf5c28b376cc27 ""
   "C:/Users/Lenovo/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1700973090 24125497 0e650d9506e81e949deb227cbd13c9f5 ""
-  "a:/OneDrive/Projects/CV/Curriculum_Vitae/cv.tex" 1736239383 216 f4bb110e9ea71d50f3b9ce153a0262b5 ""
-  "cv.aux" 1736240180 32 044b7f8fc9779af7531264e0c5c84b6d "pdflatex"
-  "cv.tex" 1736239383 216 f4bb110e9ea71d50f3b9ce153a0262b5 ""
-  "main.pdf" 1736240150 243440 36d7ccbdd504d028e7cd4f466e329c8f ""
-  "main_1.pdf" 1736239337 652703 f8dadc80c272dc8134ab36ce71ed8648 ""
+  "a:/OneDrive/Projects/CV/Curriculum_Vitae/cv.tex" 1748965957 260 bc39e5c3940c3037592c7dde27098dfc ""
+  "cv.aux" 1753666198 32 ab05033ccbb38b00a31b200ccedf8001 "pdflatex"
+  "cv.tex" 1748965957 260 bc39e5c3940c3037592c7dde27098dfc ""
+  "main.pdf" 1753666105 217189 342671ac58d3918835b8bb3a2947ae12 ""
+  "main_1.pdf" 1748966013 652364 9c2e4a463e9b4343d8e15c23b1910d0c ""
+  "work.pdf" 1753665198 153056 9673c511d53c683463ea6ccb26ebde56 ""
   (generated)
   "cv.aux"
   "cv.log"

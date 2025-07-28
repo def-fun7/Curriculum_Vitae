@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1736239328 "a:/OneDrive/Projects/CV/Curriculum_Vitae/main_1.tex" "main_1.pdf" "main_1" 1736239338 0
+["pdflatex"] 1748965999 "a:/OneDrive/Projects/CV/Curriculum_Vitae/main_1.tex" "main_1.pdf" "main_1" 1748966018 0
   "A:/MikTex/fonts/enc/dvips/fontawesome/fontawesomeone.enc" 1463869852 1687 f004baecce60175c6453d0e3f808cf20 ""
   "A:/MikTex/fonts/enc/dvips/fontawesome/fontawesomethree.enc" 1463869852 2437 443c81fb50993bacedc5f9a206c322b0 ""
   "A:/MikTex/fonts/enc/dvips/fontawesome/fontawesometwo.enc" 1463869852 2679 32dd8ae231bf4a0752b98f62dc097183 ""
@@ -224,16 +224,16 @@
   "A:/MikTex/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
   "A:/MikTex/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "A:/MikTex/tex/latex/xstring/xstring.sty" 1693735632 123 a302f2c651a95033260db60e51527ae8 ""
-  "C:/Users/Lenovo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1736235937 237228 1741a17de6fa432067a358929831ca79 ""
+  "C:/Users/Lenovo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1747588782 242131 acbf7bfd8204a663beaf5c28b376cc27 ""
   "C:/Users/Lenovo/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1700973090 24125497 0e650d9506e81e949deb227cbd13c9f5 ""
-  "a:/OneDrive/Projects/CV/Curriculum_Vitae/main_1.tex" 1736239309 7288 aa3b52f353ed697a9022d547d18606a6 ""
+  "a:/OneDrive/Projects/CV/Curriculum_Vitae/main_1.tex" 1748965987 7447 cfeba5dc3ba65759d68a73d8db1bf979 ""
   "gct.jpeg" 1717662365 21677 7a70ea49b02ed111f61e93c686075f6c ""
   "hipstercv.cls" 1736163194 11753 eb3f77217e503b14250c6c3c77366fff ""
   "hipstercv.sty" 1736163194 11383 83375c12de24bdda92765aaa9969ab95 ""
   "jack.jpg" 1736236404 23872 e5942be6bc41153485f1535e21265cbc ""
-  "main_1.aux" 1736239336 597 cccaed17489acf461ddd6b416401ae2b "pdflatex"
-  "main_1.out" 1736239332 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main_1.tex" 1736239309 7288 aa3b52f353ed697a9022d547d18606a6 ""
+  "main_1.aux" 1748966013 597 cccaed17489acf461ddd6b416401ae2b "pdflatex"
+  "main_1.out" 1748966008 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main_1.tex" 1748965987 7447 cfeba5dc3ba65759d68a73d8db1bf979 ""
   "pu.png" 1717662403 649570 a2849a2b632a9485c984678bdb8e55d4 ""
   (generated)
   "main_1.aux"

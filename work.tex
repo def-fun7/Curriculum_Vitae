@@ -1,0 +1,179 @@
+% a mashup of hipstercv, friggeri and twenty cv
+% https://www.latextemplates.com/template/twenty-seconds-resumecv
+% https://www.latextemplates.com/template/friggeri-resume-cv
+
+\documentclass[lighthipster]{simplehipstercv}
+% available options are: darkhipster, lighthipster, pastel, allblack, grey, verylight, withoutsidebar
+% withoutsidebar
+\usepackage[utf8]{inputenc}
+\usepackage[default]{raleway}
+\usepackage[margin=1cm, a4paper]{geometry}
+
+
+
+%------------------------------------------------------------------ Variablen
+
+\newlength{\rightcolwidth}
+\newlength{\leftcolwidth}
+\setlength{\leftcolwidth}{0.23\textwidth}
+\setlength{\rightcolwidth}{0.75\textwidth}
+
+%------------------------------------------------------------------
+\title{First CV}
+\author{\LaTeX{} Asad}
+\date{May 2024}
+
+\pagestyle{empty}
+\begin{document}
+
+
+\thispagestyle{empty}
+%-------------------------------------------------------------
+
+\section*{Start}
+
+\simpleheader{headercolour}{}{Asad Arshad}{Astrophysicist, Geospatial Specialist \& Programmer}{white}
+
+
+
+%------------------------------------------------
+
+% this has to be here so the paracols starts..
+\subsection*{}
+\vspace{4em}
+
+\setlength{\columnsep}{1.5cm}
+\columnratio{0.23}[0.75]
+\begin{paracol}{2}
+\hbadness5000
+% \backgroundcolor{c[1]}[rgb]{1,1,0.8} % cream yellow for column-1 %\backgroundcolor{g}[rgb]{0.8,1,1} % \backgroundcolor{l}[rgb]{0,0,0.7} % dark blue for left margin
+
+\paracolbackgroundoptions
+
+% 0.9,0.9,0.9 -- 0.8,0.8,0.8
+
+
+\footnotesize
+{\setasidefontcolour
+\flushright
+% \begin{center}
+%     \roundpic{jack.jpg}
+% \end{center}
+% \bigskip
+
+% \vspace{4.5em}
+% \bg{cvgreen}{white}{About me}\\[0.5em]
+
+% {\footnotesize
+% An inquisitive, ambitious and creative student, with a passion of learning, always seeking new ways to 
+% understand the cosmos, while experiencing and enjoying the world of science, research and technology, as well as have \emph{fun}.
+% }
+% \bigskip
+
+% % \vspace{1.5cm}
+
+% \bg{cvgreen}{white}{Personal} \\[0.5em]
+% Gender: Male \\
+% Nationality: Pakistani \\
+% circa 2002 AD\\
+
+% \bigskip
+
+% \bg{cvgreen}{white}{Areas of specialization} \\[0.5em]
+
+% •~Astrophysics \\~•~Scientific Research\\~•~Exoplanetary Science\\~•~ GIS \& Remote Sensing \\~•~Programming\\~•~Scientific \& Fictional Writing
+
+% \bigskip
+
+
+% \bg{cvgreen}{white}{Interests}\\[0.5em]
+
+% Reading, Writing, Programming, Cycling \\and Listening to the Music during all these.
+
+% \bigskip
+
+% \vspace{3em}
+
+% \bg{cvgreen}{white}{Application Softwares}\\[0.5em]
+
+% •~Jupyter Notebooks \\
+% •~Visual Studio Code \\
+% •~FITS Liberator \\
+% •~Microsoft Office \\
+% •~ArcGIS Pro \& Desktop \\
+% •~QGIS \\
+% •~Google Earth Engine \& Google Earth Pro \\
+% •~Stellarium \\
+
+% \bigskip
+
+\vspace{38em}
+\bigskip
+
+\infobubble{\faWhatsapp}{cvgreen}{white}{+92-349-4906282}
+\infobubble{\faLinkedin}{cvgreen}{white}{\href{https://www.linkedin.com/in/asad-arshad-b42a0a225}{Asad Arshad}}
+\infobubble{\faGithub}{cvgreen}{white}{\href{https://github.com/def-fun7}{def\_fun}}
+\infobubble{\faTwitter}{cvgreen}{white}{\href{https://x.com/c299792458_}{@c299792458\_}}
+\infobubble{\faEnvelope}{cvgreen}{white}{\href{mailto:asad.mail@tutamail.com}{asad.mail}}
+\infobubble{\faEnvelope}{cvgreen}{white}{House No. 634}
+\\ Block 3 \\ sector D2, \\ Postal: 54770 \\ Lahore, Pakistan
+\infobubble{\faUser}{cvgreen}{white}{\href{https://def-fun7.github.io/Portfolio/}{My Portfolio}}
+
+
+\phantom{turn the page}
+
+\phantom{turn the page}
+}
+%-----------------------------------------------------------
+\switchcolumn
+
+\small
+\begin{center}
+\begin{minipage}[t]{0.5\textwidth}
+\section*{Softwares}
+\begin{tabular}{r @{\hspace{0.5em}}l}
+     \bg{skilllabelcolour}{iconcolour}{VS code} & \barrule{0.55}{0.5em}{cvpurple} \\ 
+    %  \bg{skilllabelcolour}{iconcolour}{R} & \barrule{0.2}{0.5em}{cvpurple} \\
+     \bg{skilllabelcolour}{iconcolour}{MS office} & \barrule{0.43}{0.5em}{cvpurple} \\
+     \bg{skilllabelcolour}{iconcolour}{ArcGIS Desktop \& Pro} &  \barrule{0.45}{0.5em}{cvpurple}\\
+     \bg{skilllabelcolour}{iconcolour}{MySQL} & \barrule{0.5}{0.5em}{cvpurple} \\
+\end{tabular}
+% \centering\small{(\LaTeX~compiled on \today)}
+\end{minipage}
+\end{center}
+
+\normalsize
+
+\section*{Past Work [cont...]} 
+\begin{tabular}{r| p{0.5\textwidth} c}
+    \cvevent{2024}{QSOs Spectra and Virial BH masses on SDSS}{Solo}{SciServer \color{cvred}}{In this little side project, I explored the vast dataset on Spectra of QSOs through python as well as performed some stats on the BH mass dataset from \textbf{Vizier}.}{ss.png} \\
+    \cvevent{2023}{Exoplanets around ``TRAPPIST-1'' through ``KEPLER''}{Lead}{FITS Liberator \& MAST \color{cvred}}{Analysing the Light curves of ``TRAPPIST-1'' that we made using the ``Transit data'' from \textbf{Kepler Mission} and \textbf{K2} and studied the orientation and general planetary parametes of the planets in TRAPPIST system.}{mast.jpeg} \\
+    \cvevent{2023}{Satellite Orbits and Ground Track using ``Keplerian Elements}{Solo}{Python \& VS code \color{cvred}}{We used the keplerian elements information on Satellites like Landsat and wrote a python script that calculated the path of satellite and animated the plot as well as it's ground track on a longitude and latitude axes with labels.}{py.jpg} \\
+    \cvevent{2023}{Roulettes: Animating mathematical curves using p5js}{Solo}{p5.js \& p5.js Web editor \color{cvred}}{Utilizing the potiential of p5.js, we had fun creating and animating roulette, from differential geometry of curves, and both learned js and recreated shapes like cycloids, epicyloids, heart curves and a lot more.}{p5.jpg} \\
+    \cvevent{2022}{Earth is Flat. Dont you Know?}{Script Writer}{MS Word \color{cvred}}{A documentary into the stories about the very shape of our own planet, made with classmates, exploring how the earth was once viewed and still is by some people on this round round planet.}{sw.jpg} \\
+    % \cvevent{2022}{Oh My Marks!!}{Solo}{MS Word \color{cvred}}{A fun twisty story about the assigned importance to grades in the world and it's psychological impacts.}{sw.jpg} \\
+    \cvevent{2022}{Trignometric functions estimation without 3rd party libraries}{Solo}{Python \& VS code \color{cvred}}{As an experiment in mathematics and programming, we use maths functions to calculate Trignometric functions on our own and compared the result with values from libraries like \textbf{Numpy} and \textbf{math}.}{py.jpg} \\
+
+\end{tabular}
+
+\begin{center}
+    \small
+    \textbf{and many many more. (For them, check my \href{https://def-fun7.github.io/Portfolio/}{Portfolio}) }
+\end{center}
+\vspace{2em}
+
+%----------------------------------------------------------------------------------------
+%	FINAL FOOTER
+%----------------------------------------------------------------------------------------
+\setlength{\parindent}{0pt}
+\begin{minipage}[t]{\rightcolwidth}
+\begin{center}\fontfamily{\sfdefault}\selectfont \color{black!70}
+{\small Asad Arshad \icon{\faEnvelopeO}{cvgreen}{} \protect\href{mailto:asad.mail!tutamail.com}{asad.mail@tutamail.com} \icon{\faMapMarker}{cvgreen}{} Lahore \icon{\faPhone}{cvgreen}{} +92/349 4906282 
+% \newline\icon{\faAt}{cvgreen}{} \protect\url{jack@sparrow.com}
+}
+\end{center}
+\end{minipage}
+
+\end{paracol}
+
+\end{document}
