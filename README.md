@@ -1,8 +1,8 @@
 # Curriculum Vitae
 
-``Using Hipster and simple hipster CV templates ``
+``Using Hipster and simple hipster CV templates``
 
-This cv is made by mixing both `Hipster as well as Simple Hipster  template`. As both templates have different styling, in order to mix them, a simple pdf is made that includes the output of the first two template. So, build the main file again after changing primary files.
+This cv is made by mixing both `Hipster as well as Simple Hipster  template`. As both templates have different styling, the hipster file is complied separately and then added to simple_hipster.
 
 ## Hipster CV
 
