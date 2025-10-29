@@ -1,0 +1,376 @@
+\documentclass[lighthipster]{simplehipstercv}
+
+\usepackage[utf8]{inputenc}
+\usepackage[default]{raleway}
+\usepackage[margin=1cm, a4paper]{geometry}
+\usepackage{pdfpages}
+
+
+
+%------------------------------------------------------------------ Variables
+
+\newlength{\rightcolwidth}
+\newlength{\leftcolwidth}
+\setlength{\leftcolwidth}{0.23\textwidth}
+\setlength{\rightcolwidth}{0.75\textwidth}
+
+%------------------------------------------------------------------
+\title{my_simple_hipster_CV}
+\author{Asad Arshad}
+\date{May 2024}
+
+\pagestyle{empty}
+\begin{document}
+
+% \include
+\thispagestyle{empty}
+%-------------------------------------------------------------
+
+\section*{Start}
+
+\simpleheader{headercolour}{}{Asad Arshad}{Astrophysicist, Geospatial Specialist \& Programmer}{white}
+
+
+
+%------------------------------------------------
+
+% this has to be here so the para cols starts..
+\subsection*{}
+\vspace{4em}
+
+\setlength{\columnsep}{1.5cm}
+\columnratio{0.23}[0.75]
+\begin{paracol}{2}
+\hbadness5000
+% \backgroundcolor{c[1]}[rgb]{1,1,0.8} % cream yellow for column-1 %\backgroundcolor{g}[rgb]{0.8,1,1} % \backgroundcolor{l}[rgb]{0,0,0.7} % dark blue for left margin
+
+\paracolbackgroundoptions
+
+% 0.9,0.9,0.9 -- 0.8,0.8,0.8
+
+
+\footnotesize
+{\setasidefontcolour
+\flushright
+% \begin{center}
+%     \roundpic{jack.jpg}
+% \end{center}
+% \bigskip
+
+\vspace{14.5em}
+\bg{cvgreen}{white}{About me}\\[0.5em]
+
+{\footnotesize
+An inquisitive, ambitious and creative student, with a passion of learning, always seeking new ways to 
+understand the cosmos, while experiencing and enjoying the world of science, research and technology, as well as have \emph{fun}.
+}
+\bigskip
+
+% \vspace{1.5cm}
+
+\bg{cvgreen}{white}{Personal} \\[0.5em]
+Gender: Male \\
+Nationality: Pakistani \\
+circa 2002 AD\\
+
+\bigskip
+
+\bg{cvgreen}{white}{Areas of specialization} \\[0.5em]
+
+•~Astrophysics \\~•~Scientific Research\\~•~Exoplanetary Science\\~•~ GIS \& Remote Sensing \\~•~Programming\\~•~Scientific \& Fictional Writing
+
+\bigskip
+
+
+\bg{cvgreen}{white}{Interests}\\[0.5em]
+
+Reading, Writing, Programming, Cycling \\and Listening to the Music during all these.
+
+\bigskip
+
+\vspace{3em}
+
+\bg{cvgreen}{white}{Application Softwares}\\[0.5em]
+
+•~Jupyter Notebooks \\
+•~Visual Studio Code \\
+•~FITS Liberator \\
+•~Microsoft Office \\
+•~ArcGIS Pro \& Desktop \\
+•~QGIS \\
+•~Google Earth Engine \& Google Earth Pro \\
+•~Stellarium \\
+
+\bigskip
+
+\vspace{8em}
+\bigskip
+
+% \infobubble{\faWhatsapp}{cvgreen}{white}{+92-349-4906282}
+% \infobubble{\faLinkedin}{cvgreen}{white}{\href{https://www.linkedin.com/in/asad-arshad-b42a0a225}{Asad Arshad}}
+% \infobubble{\faGithub}{cvgreen}{white}{\href{https://github.com/def-fun7}{def\_fun}}
+% \infobubble{\faTwitter}{cvgreen}{white}{\href{https://x.com/c299792458_}{@c299792458\_}}
+% \infobubble{\faEnvelope}{cvgreen}{white}{\href{mailto:asad.mail@tutamail.com}{asad.mail}}
+% \infobubble{\faUser}{cvgreen}{white}{\href{https://def-fun7.github.io/Portfolio/}{My Portfolio}}
+
+\phantom{turn the page}
+
+\phantom{turn the page}
+}
+%-----------------------------------------------------------
+\switchcolumn
+
+\small
+\section*{On Going Projects }
+
+\begin{tabular}{r| p{0.5\textwidth} c}
+    \cvevent{2025--Pre}{A Complete Bus Tracking System}{Developer}{React Native, Next.JS, PostgreSQL\color{cvred}}
+    {The goal is to design a complete tracking system for buses comprising on a android mobile app on driver side leveraging local mobile gps module and a web App showing real time bus location, linked through a backend PostgreSQL database through BaaS like Supabase or Amazon RDS.}{bus.png}\\
+    \cvevent{2025--Pre}{A Book-keeping Web-Desktop Application}{Developer}{Python, SQL, HTML, CSS, JS\color{cvred}}
+    {An Application using SQL database to keep employee records, accounts and authentication, Python for backend procedure, HTML, CSS and JS for user interface, in a local Desktop App, bind using eel library }{eel.jpg}
+    
+\end{tabular}
+\vspace{2em}
+
+% \begin{minipage}[t]{0.35\textwidth}
+% \section*{Degrees}
+% \begin{tabular}{r p{0.6\textwidth} c}
+%     \cvdegree{2019--21}{Intermediate}{F. Sc (Pre Eng) [A+]}{ \newline Govt. College Township \color{headerblue}}{}{gct.jpeg} \\
+%     \cvdegree{2021--25}{Bachelors }{Space Sciences [3.86]}{ \newline Dept. of Space Science \newline University of The Punjab \color{headerblue}}{}{pu.png} \\
+% \end{tabular}
+% \end{minipage}\hfill
+% \begin{minipage}[t]{0.3\textwidth}
+% \section*{Programming}
+% \begin{tabular}{r @{\hspace{0.5em}}l}
+%      \bg{skilllabelcolour}{iconcolour}{python} & \barrule{0.55}{0.5em}{cvpurple} \\ 
+%     %  \bg{skilllabelcolour}{iconcolour}{R} & \barrule{0.2}{0.5em}{cvpurple} \\
+%      \bg{skilllabelcolour}{iconcolour}{javascript} & \barrule{0.43}{0.5em}{cvpurple} \\
+%      \bg{skilllabelcolour}{iconcolour}{html, css} &  \barrule{0.45}{0.5em}{cvpurple}\\
+%      \bg{skilllabelcolour}{iconcolour}{\LaTeX} & \barrule{0.5}{0.5em}{cvpurple} \\
+% \end{tabular}
+% \centering\small{(\LaTeX~compiled on \today)}
+% \end{minipage}
+
+\normalsize
+
+\section*{Past Work}
+\begin{tabular}{r| p{0.5\textwidth} c}
+    \cvevent{2025}{L'appel au Vide: Light Signals around SMBH}{Lead}{HTML, CSS, JS, Github \color{cvred}}
+    {As for my Bachelors final year project, we investigated what happens to light Signals in the vicinity of SMBHs and what would a conversation be like using such light signals in morse code and developed a webite \href{https://def-fun7.github.io/call-to-the-void/}{Call-to-the-void}}{bh.jpg} \\
+    \cvevent{2024}{Guessing the Countries: A WebGIS Game}{Solo}{Github \color{cvred}}{A simple yet quite fun game, whose objective is right in the name, guessing the names of the countries and get fun surpised gif reactions.}{gh.jpg} \\
+    \cvevent{2024}{Studying the effects of ENSO on Moonsoon in Pakistan}{Thought Leader}{Google Earth Engine \color{cvred}}
+    {Our aim was to use EE datasets to calculate \textbf{Oceanic Nino Index (ONI)} and \textbf{Standarized Precepitation Index (SPI)} to see how the rainfall in moonsoon season in Punjab, Pakistan is effected by El Nino and La Nina.}{earthengine.jpeg} \\
+    % \cvevent{2024}{QSOs Spectra and Virial BH masses on SDSS}{Solo}{SciServer \color{cvred}}{In this little side project, I explored the vast dataset on Spectra of QSOs through python as well as performed some stats on the BH mass dataset from \textbf{Vizier}.}{ss.png} \\
+    
+\end{tabular}
+
+\begin{center}
+    \small
+    \textbf{and more on next page}
+\end{center}
+\vspace{2em}
+
+\begin{minipage}[t]{0.3\textwidth}
+\section*{Positions Held}
+\begin{tabular}{>{\footnotesize\bfseries}r >{\footnotesize}p{0.55\textwidth}}
+    2024 & Summer Internship at \emph{PMD, HQ, Islamabad}\\
+    2024 & Dr.~Khalid's assistant in \emph{SARNET} course\\
+\end{tabular}
+\bigskip
+
+\section*{Languages}
+\begin{tabular}{l | ll}
+\textbf{Urdu} & C2 & {\phantom{x}\footnotesize mother tongue} \\
+\textbf{English} & C2 & \pictofraction{\faCircle}{cvgreen}{4}{black!30}{1}{\tiny} \\
+% \textbf{Spanish} & C2 & \pictofraction{\faCircle}{cvgreen}{1}{black!30}{3}{\tiny} \\
+% \textbf{Italian} & C2 & \pictofraction{\faCircle}{cvgreen}{3}{black!30}{1}{\tiny}
+\end{tabular}
+\bigskip
+
+\end{minipage}\hfill
+\begin{minipage}[t]{0.3\textwidth}
+\section*{Programs}
+\begin{tabular}{>{\footnotesize\bfseries}r >{\footnotesize}p{0.7\textwidth}}
+    2024 & \emph{ONI using OISST v2.1 dataset}, Google Earth Engine. \\
+    2024 & \emph{Orbits \& Keplerian Elements in Python}, Google Colab.
+\end{tabular}
+\bigskip
+
+\section*{Writings}
+\begin{tabular}{>{\footnotesize\bfseries}r >{\footnotesize}p{0.6\textwidth}}
+    Aug. 2021 & ``Would you like an Omelete?''.
+\end{tabular}
+\end{minipage}
+
+
+
+
+
+
+\vfill{} % Whitespace before final footer
+
+%----------------------------------------------------------------------------------------
+%	FINAL FOOTER
+%----------------------------------------------------------------------------------------
+\setlength{\parindent}{0pt}
+\begin{minipage}[t]{\rightcolwidth}
+\begin{center}\fontfamily{\sfdefault}\selectfont \color{black!70}
+{\small Asad Arshad \icon{\faEnvelopeO}{cvgreen}{} \protect\href{mailto:asad.mail!tutamail.com}{asad.mail@tutamail.com} \icon{\faMapMarker}{cvgreen}{} Lahore \icon{\faPhone}{cvgreen}{} +92/349 4906282 
+% \newline\icon{\faAt}{cvgreen}{} \protect\url{jack@sparrow.com}
+}
+\end{center}
+\end{minipage}
+
+\end{paracol}
+
+%-------------------------------------------------------------
+
+\section*{Start}
+
+\simpleheader{headercolour}{}{Asad Arshad}{Astrophysicist, Geospatial Specialist \& Programmer}{white}
+
+
+
+%------------------------------------------------
+
+% this has to be here so the paracols starts..
+\subsection*{}
+\vspace{4em}
+
+\setlength{\columnsep}{1.5cm}
+\columnratio{0.23}[0.75]
+\begin{paracol}{2}
+\hbadness5000
+% \backgroundcolor{c[1]}[rgb]{1,1,0.8} % cream yellow for column-1 %\backgroundcolor{g}[rgb]{0.8,1,1} % \backgroundcolor{l}[rgb]{0,0,0.7} % dark blue for left margin
+
+\paracolbackgroundoptions
+
+% 0.9,0.9,0.9 -- 0.8,0.8,0.8
+
+
+\footnotesize
+{\setasidefontcolour
+\flushright
+% \begin{center}
+%     \roundpic{jack.jpg}
+% \end{center}
+% \bigskip
+
+% \vspace{4.5em}
+% \bg{cvgreen}{white}{About me}\\[0.5em]
+
+% {\footnotesize
+% An inquisitive, ambitious and creative student, with a passion of learning, always seeking new ways to 
+% understand the cosmos, while experiencing and enjoying the world of science, research and technology, as well as have \emph{fun}.
+% }
+% \bigskip
+
+% % \vspace{1.5cm}
+
+% \bg{cvgreen}{white}{Personal} \\[0.5em]
+% Gender: Male \\
+% Nationality: Pakistani \\
+% circa 2002 AD\\
+
+% \bigskip
+
+% \bg{cvgreen}{white}{Areas of specialization} \\[0.5em]
+
+% •~Astrophysics \\~•~Scientific Research\\~•~Exoplanetary Science\\~•~ GIS \& Remote Sensing \\~•~Programming\\~•~Scientific \& Fictional Writing
+
+% \bigskip
+
+
+% \bg{cvgreen}{white}{Interests}\\[0.5em]
+
+% Reading, Writing, Programming, Cycling \\and Listening to the Music during all these.
+
+% \bigskip
+
+% \vspace{3em}
+
+% \bg{cvgreen}{white}{Application Softwares}\\[0.5em]
+
+% •~Jupyter Notebooks \\
+% •~Visual Studio Code \\
+% •~FITS Liberator \\
+% •~Microsoft Office \\
+% •~ArcGIS Pro \& Desktop \\
+% •~QGIS \\
+% •~Google Earth Engine \& Google Earth Pro \\
+% •~Stellarium \\
+
+% \bigskip
+
+\vspace{38em}
+\bigskip
+
+\infobubble{\faWhatsapp}{cvgreen}{white}{+92-349-4906282}
+\infobubble{\faLinkedin}{cvgreen}{white}{\href{https://www.linkedin.com/in/asad-arshad-b42a0a225}{Asad Arshad}}
+\infobubble{\faGithub}{cvgreen}{white}{\href{https://github.com/def-fun7}{def\_fun}}
+\infobubble{\faTwitter}{cvgreen}{white}{\href{https://x.com/c299792458_}{@c299792458\_}}
+\infobubble{\faEnvelope}{cvgreen}{white}{\href{mailto:asad.mail@tutamail.com}{asad.mail}}
+\infobubble{\faEnvelope}{cvgreen}{white}{House No. 634}
+\\ Block 3 \\ sector D2, \\ Postal: 54770 \\ Lahore, Pakistan
+\infobubble{\faUser}{cvgreen}{white}{\href{https://def-fun7.github.io/Portfolio/}{My Portfolio}}
+
+
+\phantom{turn the page}
+
+\phantom{turn the page}
+}
+%-----------------------------------------------------------
+\switchcolumn
+
+\small
+\begin{center}
+\begin{minipage}[t]{0.5\textwidth}
+\section*{Softwares}
+\begin{tabular}{r @{\hspace{0.5em}}l}
+     \bg{skilllabelcolour}{iconcolour}{VS code} & \barrule{0.55}{0.5em}{cvpurple} \\ 
+    %  \bg{skilllabelcolour}{iconcolour}{R} & \barrule{0.2}{0.5em}{cvpurple} \\
+     \bg{skilllabelcolour}{iconcolour}{MS office} & \barrule{0.43}{0.5em}{cvpurple} \\
+     \bg{skilllabelcolour}{iconcolour}{ArcGIS Desktop \& Pro} &  \barrule{0.45}{0.5em}{cvpurple}\\
+     \bg{skilllabelcolour}{iconcolour}{MySQL} & \barrule{0.5}{0.5em}{cvpurple} \\
+\end{tabular}
+% \centering\small{(\LaTeX~compiled on \today)}
+\end{minipage}
+\end{center}
+
+\normalsize
+
+\section*{Past Work [cont...]} 
+\begin{tabular}{r| p{0.5\textwidth} c}
+    \cvevent{2024}{QSOs Spectra and Virial BH masses on SDSS}{Solo}{SciServer \color{cvred}}{In this little side project, I explored the vast dataset on Spectra of QSOs through python as well as performed some stats on the BH mass dataset from \textbf{Vizier}.}{ss.png} \\
+    \cvevent{2023}{Exoplanets around ``TRAPPIST-1'' through ``KEPLER''}{Lead}{FITS Liberator \& MAST \color{cvred}}{Analysing the Light curves of ``TRAPPIST-1'' that we made using the ``Transit data'' from \textbf{Kepler Mission} and \textbf{K2} and studied the orientation and general planetary parametes of the planets in TRAPPIST system.}{mast.jpeg} \\
+    \cvevent{2023}{Satellite Orbits and Ground Track using ``Keplerian Elements}{Solo}{Python \& VS code \color{cvred}}{We used the keplerian elements information on Satellites like Landsat and wrote a python script that calculated the path of satellite and animated the plot as well as it's ground track on a longitude and latitude axes with labels.}{py.jpg} \\
+    \cvevent{2023}{Roulettes: Animating mathematical curves using p5js}{Solo}{p5.js \& p5.js Web editor \color{cvred}}{Utilizing the potiential of p5.js, we had fun creating and animating roulette, from differential geometry of curves, and both learned js and recreated shapes like cycloids, epicyloids, heart curves and a lot more.}{p5.jpg} \\
+    \cvevent{2022}{Earth is Flat. Dont you Know?}{Script Writer}{MS Word \color{cvred}}{A documentary into the stories about the very shape of our own planet, made with classmates, exploring how the earth was once viewed and still is by some people on this round round planet.}{sw.jpg} \\
+    % \cvevent{2022}{Oh My Marks!!}{Solo}{MS Word \color{cvred}}{A fun twisty story about the assigned importance to grades in the world and it's psychological impacts.}{sw.jpg} \\
+    \cvevent{2022}{Trignometric functions estimation without 3rd party libraries}{Solo}{Python \& VS code \color{cvred}}{As an experiment in mathematics and programming, we use maths functions to calculate Trignometric functions on our own and compared the result with values from libraries like \textbf{Numpy} and \textbf{math}.}{py.jpg} \\
+
+\end{tabular}
+
+\begin{center}
+    \small
+    \textbf{and many many more. (For them, check my \href{https://def-fun7.github.io/Portfolio/}{Portfolio}) }
+\end{center}
+\vspace{2em}
+
+%----------------------------------------------------------------------------------------
+%	FINAL FOOTER
+%----------------------------------------------------------------------------------------
+\setlength{\parindent}{0pt}
+\begin{minipage}[t]{\rightcolwidth}
+\begin{center}\fontfamily{\sfdefault}\selectfont \color{black!70}
+{\small Asad Arshad \icon{\faEnvelopeO}{cvgreen}{} \protect\href{mailto:asad.mail!tutamail.com}{asad.mail@tutamail.com} \icon{\faMapMarker}{cvgreen}{} Lahore \icon{\faPhone}{cvgreen}{} +92/349 4906282 
+% \newline\icon{\faAt}{cvgreen}{} \protect\url{jack@sparrow.com}
+}
+\end{center}
+\end{minipage}
+
+\end{paracol}
+
+
+
+\end{document}

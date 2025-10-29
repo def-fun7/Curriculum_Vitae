@@ -1,0 +1,67 @@
+# ------------------------------------
+# 1. CORE LATEX AUXILIARY/TEMPORARY FILES
+# ------------------------------------
+
+# These are created on every compilation run
+*.aux
+*.bbl
+*.blg
+*.log
+*.lof
+*.lot
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex.gz(busy)
+
+# For various editors/tools
+*.nav
+*.snm
+*.vrb
+*.dvi
+*.xdv
+*.idx
+*.ilg
+*.ind
+*.glo
+*.gls
+*.glg
+
+# ------------------------------------
+# 2. BIBLIOGRAPHY FILES (BibTeX/Biber)
+# ------------------------------------
+
+*.bcf
+*.xml
+*-blx.bib
+*.run.xml
+
+# ------------------------------------
+# 3. OUTPUT FILES (Choose one or ignore all)
+# ------------------------------------
+
+# Most people ignore the PDF and only commit the source files, 
+# as the PDF can be large and is easily regenerated.
+# If you DO want to track the PDF, remove this line!
+*.pdf 
+
+# Older/other output formats
+*.ps
+*.eps
+*.pau
+
+# ------------------------------------
+# 4. EDITOR & OS SPECIFIC FILES
+# ------------------------------------
+
+# macOS files
+.DS_Store
+
+# Common backup/temp files
+*~
+#*#
+
+# For VS Code or similar
+.vscode/
